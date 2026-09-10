@@ -1,35 +1,37 @@
-# Three Statement Financial Model (Excel)
+# Vacation Rental P&L Dashboard (Excel)
 
-A fully linked three statement model (income statement, balance sheet, and cash flow) that forecasts a company five years out from a single page of assumptions. Change an input and all three statements move together, and the balance sheet still ties out.
+An Excel dashboard that tracks profit and loss across 300 vacation rental properties over a full fiscal year and surfaces the best and worst performers at a glance.
 
-Tools: Excel (financial modeling)
+Tools: Excel (dashboards, formulas)
 
-## What it does
+## What it shows
 
-Takes 2025 as the last actual year and projects 2026 through 2030. Every driver lives on one Assumptions tab (revenue growth, margins, working capital days, capex, debt, and tax), so a new scenario is just a few cell changes.
+Headline totals for the year: revenue, expenses, and profit
 
-## Base case results
+Top 10 and bottom 10 properties by profit
 
-Revenue grows from about $150.8M in 2025 to $242.8M by 2030, roughly a 10% annual growth rate
+Top 10 and bottom 10 properties by guest rating
 
-Net earnings almost double over the five years
+A fiscal year view running April through March
 
-Debt is paid down from $30M to $10M while cash builds
-
-The balance sheet check ties to zero, so the model is internally consistent
+For the sample year, the portfolio runs about $8.85M in revenue, $4.02M in expenses, and $4.83M in profit across the 300 properties.
 
 ## How it is built
 
-Assumptions: every input in one place
+Properties: the 300 property master list
 
-Income Statement, Balance Sheet, Cash Flow Statement: fully linked
+Revenue and Expenses: monthly figures per property (about 3,600 rows each)
 
-Supporting Schedules: debt, working capital, and depreciation roll forwards
+Ratings: guest ratings by property
 
-Summary: a one page executive view with the key metrics
+Calc: the engine that rolls everything up
+
+Assumptions: fee and cost reference tables (cleaning, housekeeping, host fees, fixed costs by bedroom count)
+
+Dashboard: the summary view that pulls it together
 
 ## Files
 
-Three-Statement_Financial_Model.xlsx
+Big_Bear_Vacations_Sales_Dashboard.xlsx
 
-Built as a portfolio modeling exercise with illustrative figures.
+Built with dummy data, modeled on the kind of large property portfolio I work with.
